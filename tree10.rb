@@ -3,7 +3,6 @@
 # manontanto
 # Display File Tree with size
 #
-#
 def get_all_size
   s_old = 0
   Dir.glob($dir + '/**/*').each { | a_file |
